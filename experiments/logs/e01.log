@@ -1,0 +1,22 @@
+Adversarial AUC train vs test: 0.5094
+dt_short_std        0.029
+dt_short_cv         0.027
+cookie_age_h        0.027
+share_seller_pro    0.026
+dt_short_median     0.026
+ptr_y_max           0.025
+dt_q10              0.024
+dt_median           0.023
+dt_cv               0.023
+page_jump_mean      0.023
+item_shared_share           0.518
+item_pop_mean               0.517
+dt_median                   0.510
+page_mean                   0.510
+max_events_5min             0.509
+page_max                    0.509
+share_dt_3_10               0.509
+share_scrape_transitions    0.509
+dt_short_cv                 0.509
+page_jump_mean              0.508
+Adversarial AUC train неделя1 vs неделя2: 0.5064

@@ -1,0 +1,10 @@
+FWD 188 s
+LDO 807 s
+attention-MIL NN (одна)                              FWD mean=0.5580 [0.5797, 0.5176, 0.5768] | LDO pooled=0.6134 AUC=0.9096 PR-AUC=0.7052
+                                                     delta_fwd=-0.2170 P(delta>0)=0.00 | delta_ldo=-0.2155 90%CI[-0.2613,-0.1547] P(delta>0)=0.00
+v2 + attention-MIL, вес 0.1                          FWD mean=0.7728 [0.7306, 0.7719, 0.8158] | LDO pooled=0.8046 AUC=0.9443 PR-AUC=0.8070
+                                                     delta_fwd=-0.0023 P(delta>0)=0.33 | delta_ldo=-0.0243 90%CI[-0.0445,+0.0070] P(delta>0)=0.13
+v2 + attention-MIL, вес 0.2                          FWD mean=0.7594 [0.722, 0.75, 0.8063] | LDO pooled=0.8038 AUC=0.9431 PR-AUC=0.8013
+                                                     delta_fwd=-0.0156 P(delta>0)=0.21 | delta_ldo=-0.0251 90%CI[-0.0527,+0.0057] P(delta>0)=0.10
+v2 + attention-MIL, вес 0.3                          FWD mean=0.7307 [0.6926, 0.7097, 0.7897] | LDO pooled=0.8018 AUC=0.9413 PR-AUC=0.7949
+                                                     delta_fwd=-0.0444 P(delta>0)=0.11 | delta_ldo=-0.0272 90%CI[-0.0586,+0.0014] P(delta>0)=0.06

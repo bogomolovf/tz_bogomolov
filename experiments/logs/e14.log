@@ -1,0 +1,7 @@
+веса мета-модели: {'m_lgbA_v1': np.float64(0.52), 'm_lgbB_v1': np.float64(-0.28), 'm_lgbA_v12': np.float64(0.18), 'm_xgb_v1': np.float64(0.22), 'm_cat_v1': np.float64(0.28)}
+вложенный стекинг LR поверх 5 моделей                FWD mean=0.7684 [0.7273, 0.7917, 0.7861] | LDO pooled=0.8235 AUC=0.9437 PR-AUC=0.8093
+                                                     delta_fwd=-0.0067 P(delta>0)=0.50 | delta_ldo=-0.0054 90%CI[-0.0078,+0.0161] P(delta>0)=0.59
+LGB A | веса свежих дней, tau=5 дн.                  FWD mean=0.7780 [0.7523, 0.7571, 0.8245] | LDO pooled=0.7975 AUC=0.9410 PR-AUC=0.8012
+                                                     delta_fwd=-0.0001 P(delta>0)=0.34 | delta_ldo=-0.0304 90%CI[-0.0401,+0.0045] P(delta>0)=0.09
+LGB A | веса свежих дней, tau=10 дн.                 FWD mean=0.7725 [0.7419, 0.7674, 0.8083] | LDO pooled=0.8163 AUC=0.9427 PR-AUC=0.8069
+                                                     delta_fwd=-0.0055 P(delta>0)=0.48 | delta_ldo=-0.0116 90%CI[-0.0184,+0.0069] P(delta>0)=0.28

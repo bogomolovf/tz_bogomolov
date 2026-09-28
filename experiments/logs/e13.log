@@ -1,0 +1,13 @@
+desktop-кук 0.533 | ботов среди mobile 0.06 desktop 0.099
+(a) раздельные модели desktop / mobile               FWD mean=0.7697 [0.7547, 0.787, 0.7673] | LDO pooled=0.8140 AUC=0.9414 PR-AUC=0.8024
+                                                     delta_fwd=-0.0084 P(delta>0)=0.34 | delta_ldo=-0.0139 90%CI[-0.0339,+0.0145] P(delta>0)=0.33
+(a2) среднее общей и раздельных моделей              FWD mean=0.7878 [0.7512, 0.7964, 0.8158] | LDO pooled=0.8300 AUC=0.9442 PR-AUC=0.8093
+                                                     delta_fwd=+0.0097 P(delta>0)=0.62 | delta_ldo=+0.0022 90%CI[-0.0149,+0.0222] P(delta>0)=0.70
+Traceback (most recent call last):
+  File "/home/claude/work/imp/e13_platform.py", line 41, in <module>
+    o=run(lgb_fp(LGB_A),None,fold_fn=ffb); report('(b) MIL: event-модели раздельно по платформе',o,ref=REF,group='platform',save_as='m_milplat')
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/work/imp/lab.py", line 57, in run
+    Xf, Xa = fold_fn(tr, va, sname, k) if fold_fn.__code__.co_argcount == 4 else fold_fn(tr, va)
+                                                                                 ^^^^^^^^^^^^^^^
+TypeError: ffb() missing 2 required positional arguments: 'sname' and 'k'

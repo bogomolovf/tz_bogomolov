@@ -1,0 +1,21 @@
+v1 FWD 0 8 s
+v1 FWD 1 14 s
+v1 FWD 2 17 s
+v1 LDO 0 19 s
+v1 LDO 1 19 s
+v1 LDO 2 18 s
+v1 LDO 3 18 s
+v1 LDO 4 18 s
+v1 LDO 5 19 s
+v1 LDO 6 18 s
+v2 FWD 0 10 s
+v2 FWD 1 15 s
+v2 FWD 2 20 s
+v2 LDO 0 21 s
+v2 LDO 1 21 s
+v2 LDO 2 21 s
+v2 LDO 3 21 s
+v2 LDO 4 21 s
+v2 LDO 5 22 s
+v2 LDO 6 21 s
+done

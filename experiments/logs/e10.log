@@ -1,0 +1,10 @@
+LGB lambdarank | ext+MILv1                           FWD mean=0.5428 [0.4923, 0.5344, 0.6016] | LDO pooled=0.5403 AUC=0.8821 PR-AUC=0.7047
+                                                     delta_fwd=-0.2353 P(delta>0)=0.00 | delta_ldo=-0.2875 90%CI[-0.3192,-0.2298] P(delta>0)=0.00
+LGB rank_xendcg | ext+MILv1                          FWD mean=0.6650 [0.625, 0.6471, 0.723] | LDO pooled=0.6923 AUC=0.9010 PR-AUC=0.7058
+                                                     delta_fwd=-0.1130 P(delta>0)=0.00 | delta_ldo=-0.1356 90%CI[-0.1573,-0.0945] P(delta>0)=0.00
+LGB focal gamma=2 | ext+MILv1                            FWD mean=0.7588 [0.7385, 0.8012, 0.7368] | LDO pooled=0.7705 AUC=0.9351 PR-AUC=0.7902
+                                                     delta_fwd=-0.0192 P(delta>0)=0.12 | delta_ldo=-0.0574 90%CI[-0.0726,-0.0062] P(delta>0)=0.03
+LGB scale_pos_weight=4 | ext+MILv1                   FWD mean=0.7649 [0.7373, 0.7543, 0.8031] | LDO pooled=0.8140 AUC=0.9434 PR-AUC=0.8060
+                                                     delta_fwd=-0.0132 P(delta>0)=0.33 | delta_ldo=-0.0139 90%CI[-0.0273,+0.0078] P(delta>0)=0.16
+LGB A | ext+MILv1 + UA (семейство, версия, TE)       FWD mean=0.7893 [0.7583, 0.8024, 0.8073] | LDO pooled=0.8300 AUC=0.9434 PR-AUC=0.8108
+                                                     delta_fwd=+0.0113 P(delta>0)=0.66 | delta_ldo=+0.0022 90%CI[-0.0088,+0.0207] P(delta>0)=0.74

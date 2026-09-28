@@ -1,0 +1,5 @@
+event table 7 s
++ MIL v2 (богаче контекст события)                   FWD mean=0.7762 [0.7892, 0.8012, 0.7381] | LDO pooled=0.8025 AUC=0.9403 PR-AUC=0.8056
+                                                     delta_fwd=+0.0195 P(delta>0)=0.83 | delta_ldo=+0.0177 90%CI[-0.0111,+0.0431] P(delta>0)=0.83
++ курсор + сессии + MIL v2                           FWD mean=0.7887 [0.8, 0.8148, 0.7512] | LDO pooled=0.8119 AUC=0.9427 PR-AUC=0.8081
+                                                     delta_fwd=+0.0320 P(delta>0)=0.86 | delta_ldo=+0.0270 90%CI[-0.0091,+0.0503] P(delta>0)=0.88

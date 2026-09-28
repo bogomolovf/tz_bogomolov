@@ -1,0 +1,15 @@
+# Python 3.11
+# --- основное решение (solution.ipynb)
+numpy==2.4.4
+pandas==3.0.2
+scikit-learn==1.8.0
+lightgbm==4.7.0
+xgboost==3.2.0
+catboost==1.2.10
+matplotlib==3.10.9
+scipy==1.17.1
+jupyter
+# --- только для папки experiments/ (не нужны для получения submission.csv)
+cleanlab==2.9.0
+optuna==5.0.0
+torch==2.14.0

@@ -1,0 +1,9 @@
+segments (55625, 28) 27 s
+LGB A | ext + MIL сегменты (8 событий)               FWD mean=0.7785 [0.7619, 0.7674, 0.8063] | LDO pooled=0.8028 AUC=0.9413 PR-AUC=0.8027
+                                                     delta_fwd=+0.0005 P(delta>0)=0.56 | delta_ldo=-0.0251 90%CI[-0.0375,+0.0121] P(delta>0)=0.20
+LGB A | ext + MIL сегменты + MIL v1                  FWD mean=0.8009 [0.797, 0.7811, 0.8245] | LDO pooled=0.8187 AUC=0.9428 PR-AUC=0.8075
+                                                     delta_fwd=+0.0228 P(delta>0)=0.78 | delta_ldo=-0.0092 90%CI[-0.0194,+0.0159] P(delta>0)=0.37
+LGB A | ext + MIL v1, event-модель x3 сида           FWD mean=0.7847 [0.7339, 0.8098, 0.8105] | LDO pooled=0.8251 AUC=0.9438 PR-AUC=0.8093
+                                                     delta_fwd=+0.0067 P(delta>0)=0.58 | delta_ldo=-0.0028 90%CI[-0.0102,+0.0152] P(delta>0)=0.63
+LGB A | ext + MIL v1, большая event-модель           FWD mean=0.7721 [0.7207, 0.8049, 0.7908] | LDO pooled=0.8140 AUC=0.9430 PR-AUC=0.8072
+                                                     delta_fwd=-0.0059 P(delta>0)=0.41 | delta_ldo=-0.0139 90%CI[-0.0247,+0.0111] P(delta>0)=0.34

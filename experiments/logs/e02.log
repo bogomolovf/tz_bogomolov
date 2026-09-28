@@ -1,0 +1,12 @@
+cleanlab: drop both                                  FWD mean=0.7303 [0.7339, 0.7059, 0.7512] | LDO pooled=0.7858 AUC=0.9391 PR-AUC=0.7817
+                                                     delta_fwd=-0.0264 P(delta>0)=0.11 | delta_ldo=+0.0010 90%CI[-0.0310,+0.0136] P(delta>0)=0.25
+cleanlab: drop neg                                   FWD mean=0.7725 [0.8, 0.7514, 0.7662] | LDO pooled=0.7945 AUC=0.9395 PR-AUC=0.7828
+                                                     delta_fwd=+0.0158 P(delta>0)=0.71 | delta_ldo=+0.0096 90%CI[-0.0148,+0.0263] P(delta>0)=0.69
+cleanlab: drop pos                                   FWD mean=0.7341 [0.7692, 0.6769, 0.7561] | LDO pooled=0.7730 AUC=0.9377 PR-AUC=0.7929
+                                                     delta_fwd=-0.0226 P(delta>0)=0.09 | delta_ldo=-0.0118 90%CI[-0.0353,+0.0081] P(delta>0)=0.16
+cleanlab: weight both                                FWD mean=0.7720 [0.796, 0.75, 0.77] | LDO pooled=0.7878 AUC=0.9406 PR-AUC=0.7950
+                                                     delta_fwd=+0.0153 P(delta>0)=0.63 | delta_ldo=+0.0029 90%CI[-0.0225,+0.0240] P(delta>0)=0.49
+null importance отбор (порог p75)                    FWD mean=0.7700 [0.7442, 0.8098, 0.7561] | LDO pooled=0.7787 AUC=0.9413 PR-AUC=0.7951
+                                                     delta_fwd=+0.0133 P(delta>0)=0.54 | delta_ldo=-0.0061 90%CI[-0.0313,+0.0163] P(delta>0)=0.31
+null importance отбор (порог p95)                    FWD mean=0.7062 [0.6178, 0.7778, 0.723] | LDO pooled=0.7714 AUC=0.9400 PR-AUC=0.7911
+                                                     delta_fwd=-0.0505 P(delta>0)=0.05 | delta_ldo=-0.0134 90%CI[-0.0421,+0.0072] P(delta>0)=0.13

@@ -1,0 +1,13 @@
+v2 финал (референс)                                  FWD mean=0.7751 [0.7273, 0.8, 0.7979] | LDO pooled=0.8289 AUC=0.9445 PR-AUC=0.8100
+dyn ('FWD', 0)
+dyn ('FWD', 1)
+dyn ('FWD', 2)
+dyn ('LDO', 0)
+dyn ('LDO', 1)
+dyn ('LDO', 2)
+dyn ('LDO', 3)
+dyn ('LDO', 4)
+dyn ('LDO', 5)
+dyn ('LDO', 6)
+LGB A | ext+MILv1 + динамика оценок событий (7)      FWD mean=0.7924 [0.7619, 0.8049, 0.8105] | LDO pooled=0.8205 AUC=0.9434 PR-AUC=0.8074
+                                                     delta_fwd=+0.0144 P(delta>0)=0.57 | delta_ldo=-0.0073 90%CI[-0.0221,+0.0093] P(delta>0)=0.38

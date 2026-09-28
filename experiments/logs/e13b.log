@@ -1,0 +1,5 @@
+desktop-кук 0.533 | ботов среди mobile 0.06 desktop 0.099
+(b) MIL: event-модели раздельно по платформе         FWD mean=0.7822 [0.763, 0.7857, 0.7979] | LDO pooled=0.8121 AUC=0.9441 PR-AUC=0.8065
+                                                     delta_fwd=+0.0041 P(delta>0)=0.50 | delta_ldo=-0.0158 90%CI[-0.0315,+0.0053] P(delta>0)=0.12
+(b2) MIL общий + MIL по платформам                   FWD mean=0.7868 [0.7547, 0.7778, 0.828] | LDO pooled=0.8128 AUC=0.9437 PR-AUC=0.8080
+                                                     delta_fwd=+0.0088 P(delta>0)=0.56 | delta_ldo=-0.0150 90%CI[-0.0232,+0.0053] P(delta>0)=0.15
